@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         // Set Event Date
         var eventDateComponents = DateComponents()
-        eventDateComponents.year = 2020
+        eventDateComponents.year = 2021
         eventDateComponents.month = 01
         eventDateComponents.day = 01
         eventDateComponents.hour = 00
