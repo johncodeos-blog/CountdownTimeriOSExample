@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XO4-a9-jjo">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XO4-a9-jjo">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,26 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timer" translatesAutoresizingMaskIntoConstraints="NO" id="xKy-tv-fud">
-                                <rect key="frame" x="57" y="237" width="300" height="300"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="F9L-ne-hry"/>
-                                    <constraint firstAttribute="width" constant="300" id="o0e-jG-CAM"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10d 15m 15s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWa-79-5LA">
-                                <rect key="frame" x="135.5" y="397" width="143.5" height="30"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <rect key="frame" x="121.5" y="369" width="171.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.61960784313725492" green="0.10980392156862745" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xKy-tv-fud" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="34J-dj-6BA"/>
-                            <constraint firstItem="xWa-79-5LA" firstAttribute="centerX" secondItem="xKy-tv-fud" secondAttribute="centerX" id="5MS-bQ-Yx0"/>
-                            <constraint firstItem="xKy-tv-fud" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IHR-b2-2TM"/>
-                            <constraint firstItem="xWa-79-5LA" firstAttribute="centerY" secondItem="xKy-tv-fud" secondAttribute="centerY" constant="25" id="QR3-Pt-Fnn"/>
+                            <constraint firstItem="xWa-79-5LA" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="TCE-VT-KXC"/>
+                            <constraint firstItem="xWa-79-5LA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="va1-cU-4Q8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -73,7 +62,4 @@
             <point key="canvasLocation" x="256.52173913043481" y="-535.04464285714278"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="timer" width="170.66667175292969" height="170.66667175292969"/>
-    </resources>
 </document>
